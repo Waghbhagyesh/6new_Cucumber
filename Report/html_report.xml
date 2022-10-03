@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.522">
+<testcase classname="Login Page Feature" name="Validate login page" time="0.183">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given User is on login page.................................................failed
+Then ActiTime logo should be displayed......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.stepDefFiles.LoginStepDef.user_is_on_login_page(LoginStepDef.java:18)
+	at ✽.User is on login page(file:///G:/Eclipse_Workspace_Selenium/NewCucumber/src/test/resources/org/FeaturesFile/Login.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Login Page Feature" name="Login page validation with valid cred" time="0.016">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given User is on login page.................................................failed
+When User enters valid credential...........................................skipped
+Then User click on login button.............................................skipped
+Then User should be navigate to dashboard...................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.stepDefFiles.LoginStepDef.user_is_on_login_page(LoginStepDef.java:18)
+	at ✽.User is on login page(file:///G:/Eclipse_Workspace_Selenium/NewCucumber/src/test/resources/org/FeaturesFile/Login.feature:10)
+]]></failure>
+</testcase>
+</testsuite>
